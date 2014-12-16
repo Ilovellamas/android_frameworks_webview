@@ -14,9 +14,5 @@
 # limitations under the License.
 #
 
-#Disable odexing
-LOCAL_DEX_PREOPT := false 
-
 # Include all the makefiles for subdirectories.
 include $(call all-subdir-makefiles)
-
